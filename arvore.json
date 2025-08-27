@@ -1,0 +1,304 @@
+{
+  "node": "Prog",
+  "children": [
+    {
+      "node": "Statement",
+      "children": [
+        {
+          "node": "VariableDeclaration",
+          "children": [
+            {
+              "node": "Type",
+              "children": [
+                "I"
+              ]
+            },
+            "idade"
+          ]
+        },
+        ";"
+      ]
+    },
+    {
+      "node": "Statement",
+      "children": [
+        {
+          "node": "AssignmentStatement",
+          "children": [
+            "idade",
+            {
+              "node": "AssignmentOperator",
+              "children": [
+                "="
+              ]
+            },
+            {
+              "node": "Expression",
+              "children": [
+                {
+                  "node": "LogicalOrExpr",
+                  "children": [
+                    {
+                      "node": "LogicalAndExpr",
+                      "children": [
+                        {
+                          "node": "EqualityExpr",
+                          "children": [
+                            {
+                              "node": "RelationalExpr",
+                              "children": [
+                                {
+                                  "node": "AdditiveExpr",
+                                  "children": [
+                                    {
+                                      "node": "MultiplicativeExpr",
+                                      "children": [
+                                        {
+                                          "node": "UnaryExpr",
+                                          "children": [
+                                            {
+                                              "node": "Primary",
+                                              "children": [
+                                                "17"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        ";"
+      ]
+    },
+    {
+      "node": "Statement",
+      "children": [
+        {
+          "node": "IfStatement",
+          "children": [
+            "Au",
+            "(",
+            {
+              "node": "Expression",
+              "children": [
+                {
+                  "node": "LogicalOrExpr",
+                  "children": [
+                    {
+                      "node": "LogicalAndExpr",
+                      "children": [
+                        {
+                          "node": "EqualityExpr",
+                          "children": [
+                            {
+                              "node": "RelationalExpr",
+                              "children": [
+                                {
+                                  "node": "AdditiveExpr",
+                                  "children": [
+                                    {
+                                      "node": "MultiplicativeExpr",
+                                      "children": [
+                                        {
+                                          "node": "UnaryExpr",
+                                          "children": [
+                                            {
+                                              "node": "Primary",
+                                              "children": [
+                                                "idade"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "\u003E=",
+                                {
+                                  "node": "AdditiveExpr",
+                                  "children": [
+                                    {
+                                      "node": "MultiplicativeExpr",
+                                      "children": [
+                                        {
+                                          "node": "UnaryExpr",
+                                          "children": [
+                                            {
+                                              "node": "Primary",
+                                              "children": [
+                                                "18"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            ")",
+            {
+              "node": "Block",
+              "children": [
+                "{",
+                {
+                  "node": "Statement",
+                  "children": [
+                    {
+                      "node": "PrintStatement",
+                      "children": [
+                        "P",
+                        "(",
+                        {
+                          "node": "Expression",
+                          "children": [
+                            {
+                              "node": "LogicalOrExpr",
+                              "children": [
+                                {
+                                  "node": "LogicalAndExpr",
+                                  "children": [
+                                    {
+                                      "node": "EqualityExpr",
+                                      "children": [
+                                        {
+                                          "node": "RelationalExpr",
+                                          "children": [
+                                            {
+                                              "node": "AdditiveExpr",
+                                              "children": [
+                                                {
+                                                  "node": "MultiplicativeExpr",
+                                                  "children": [
+                                                    {
+                                                      "node": "UnaryExpr",
+                                                      "children": [
+                                                        {
+                                                          "node": "Primary",
+                                                          "children": [
+                                                            "\u0022Maior de idade\u0022"
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        ")"
+                      ]
+                    },
+                    ";"
+                  ]
+                },
+                "}"
+              ]
+            },
+            "Cu",
+            {
+              "node": "Block",
+              "children": [
+                "{",
+                {
+                  "node": "Statement",
+                  "children": [
+                    {
+                      "node": "PrintStatement",
+                      "children": [
+                        "P",
+                        "(",
+                        {
+                          "node": "Expression",
+                          "children": [
+                            {
+                              "node": "LogicalOrExpr",
+                              "children": [
+                                {
+                                  "node": "LogicalAndExpr",
+                                  "children": [
+                                    {
+                                      "node": "EqualityExpr",
+                                      "children": [
+                                        {
+                                          "node": "RelationalExpr",
+                                          "children": [
+                                            {
+                                              "node": "AdditiveExpr",
+                                              "children": [
+                                                {
+                                                  "node": "MultiplicativeExpr",
+                                                  "children": [
+                                                    {
+                                                      "node": "UnaryExpr",
+                                                      "children": [
+                                                        {
+                                                          "node": "Primary",
+                                                          "children": [
+                                                            "\u0022Menor de idade\u0022"
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        ")"
+                      ]
+                    },
+                    ";"
+                  ]
+                },
+                "}"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "\u003CEOF\u003E"
+  ]
+}

@@ -1,0 +1,5 @@
+java -jar antlr-4.13.2-complete.jar -Dlanguage=CSharp Element.g4 -o Generated
+dotnet clean
+dotnet build
+dotnet run
+

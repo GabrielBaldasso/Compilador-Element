@@ -1,0 +1,7 @@
+// Início da classe Pessoa
+
+func falar:
+endfunc
+
+// Chamada: falar
+call falar()
